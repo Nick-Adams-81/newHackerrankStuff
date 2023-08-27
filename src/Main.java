@@ -8,5 +8,11 @@ public class Main {
         System.out.println(remove.removeVowels("hello world"));
 
         FizzBuzz.fizzBuzz(50);
+
+
+        System.out.println("Fibonacci sequence:");
+        for(int i = 0; i < 20; i++) {
+            System.out.println(FibonacciSequence.fibonacci(i));
+        }
     }
 }
