@@ -6,5 +6,7 @@ public class Main {
         System.out.println(ReverseString.reverseStr("world"));
         System.out.println(CountVowels.countVowels("hello world"));
         System.out.println(remove.removeVowels("hello world"));
+
+        FizzBuzz.fizzBuzz(50);
     }
 }
