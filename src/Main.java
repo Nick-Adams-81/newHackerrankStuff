@@ -14,5 +14,7 @@ public class Main {
         for(int i = 0; i < 20; i++) {
             System.out.println(FibonacciSequence.fibonacci(i));
         }
+
+        System.out.println(PrimeNumbers.primeNumbers(50));
     }
 }
