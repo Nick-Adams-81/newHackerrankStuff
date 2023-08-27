@@ -8,5 +8,7 @@ public class ReverseString {
         return result;
     }
 
-
+    public static String reverseStr(String str) {
+        return new StringBuilder(str).reverse().toString();
+    }
 }
