@@ -23,7 +23,6 @@ public class IsPalindrome {
             if(result.charAt(aPointer) != result.charAt(bPointer)) {
                 return false;
             }
-
             aPointer++;
             bPointer--;
         }

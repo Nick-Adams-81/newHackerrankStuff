@@ -15,6 +15,7 @@ public class Main {
         System.out.println(JumpOnclouds.jumpOnClouds(clouds));
         int[] socks = {1, 3, 2, 1, 3, 5, 7, 2};
         System.out.println(SockMerchant.sockMerchant(socks));
+        System.out.println(ArraySum.arraySum(socks));
 
         int[][] myArr = {
                 {6, 3},
