@@ -26,6 +26,11 @@ public class Main {
                 {5, 0},
         };
         System.out.println(LuckBalance.luckBalance(10, myArr));
+
+        String str1 = "racecar";
+        String str2 = "hello";
+        System.out.println(IsPalindrome.isPalindrome(str2));
+        System.out.println(IsPalindrome.palindrome(str1));
     }
 
 }
