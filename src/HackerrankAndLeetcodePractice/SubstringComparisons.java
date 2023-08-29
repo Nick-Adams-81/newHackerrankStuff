@@ -18,4 +18,5 @@ public class SubstringComparisons {
         }
         return smallest + "\n" + largest;
     }
+
 }
