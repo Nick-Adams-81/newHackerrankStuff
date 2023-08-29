@@ -31,6 +31,7 @@ public class Main {
         String str2 = "hello";
         System.out.println(IsPalindrome.isPalindrome(str2));
         System.out.println(IsPalindrome.palindrome(str1));
+        System.out.println(IsPalindrome.palindromeNumber(1232));
     }
 
 }
