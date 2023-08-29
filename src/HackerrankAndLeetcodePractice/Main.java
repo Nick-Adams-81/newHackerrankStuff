@@ -33,6 +33,7 @@ public class Main {
         System.out.println(IsPalindrome.isPalindrome(str2));
         System.out.println(IsPalindrome.palindrome(str1));
         System.out.println(IsPalindrome.palindromeNumber(1232));
+        System.out.println(SubstringComparisons.substringComparison("welcometojava", 3));
     }
 
 }
