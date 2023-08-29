@@ -6,7 +6,7 @@ import java.util.Set;
 public class SockMerchant {
 
     public static int sockMerchant(int[] socks) {
-        if(socks.length == 0) return 0;
+        if(socks.length <= 1) return 0;
         int pairs = 0;
         Set<Integer> sockPile = new HashSet<>();
         for(int i = 0; i < socks.length; i++) {

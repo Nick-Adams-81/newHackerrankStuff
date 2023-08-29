@@ -14,6 +14,17 @@ public class Main {
         System.out.println(JumpOnclouds.jumpOnClouds(clouds));
         int[] socks = {1, 3, 2, 1, 3, 5, 7, 2};
         System.out.println(SockMerchant.sockMerchant(socks));
+
+        int[][] myArr = {
+                {6, 3},
+                {5, 1},
+                {2, 1},
+                {1, 1},
+                {8, 1},
+                {10, 0},
+                {5, 0},
+        };
+        System.out.println(LuckBalance.luckBalance(10, myArr));
     }
 
 }
