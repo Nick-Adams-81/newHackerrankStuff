@@ -10,7 +10,8 @@ public class Main {
 
         int[] nums = {2, 7, 11, 15};
         int[] clouds = {0, 1, 0, 0, 0, 1, 0};
-        System.out.println(Arrays.toString(TwoSum.twoSum(nums, 17)));
+        System.out.println(Arrays.toString(TwoSum.twoSum(nums, 9)));
+        System.out.println(Arrays.toString(TwoSum.twoSumTwo(nums, 9)));
         System.out.println(JumpOnclouds.jumpOnClouds(clouds));
         int[] socks = {1, 3, 2, 1, 3, 5, 7, 2};
         System.out.println(SockMerchant.sockMerchant(socks));

@@ -17,4 +17,21 @@ public class TwoSum {
         }
         return new int[] {};
     }
+
+    public static int[] twoSumTwo(int[] nums, int target) {
+        int aPointer = 0;
+        int bPointer = nums.length -1;
+        while(aPointer <= bPointer) {
+            int sum = nums[aPointer] + nums[bPointer];
+            if(sum > target) {
+                bPointer--;
+            } else if(sum < target) {
+                aPointer++;
+            } else {
+                return new int[] {aPointer + 1, bPointer + 1};
+
+            }
+        }
+        return new int[] {aPointer + 1, bPointer + 1};
+    }
 }
