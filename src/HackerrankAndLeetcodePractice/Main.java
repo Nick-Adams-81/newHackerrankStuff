@@ -35,6 +35,9 @@ public class Main {
         System.out.println(IsPalindrome.palindromeNumber(1232));
         System.out.println(SubstringComparisons.substringComparison("welcometojava", 3));
         System.out.println(IsAnagram.isAnagram("hat", "tah"));
+
+        int[] minCost = {10, 15, 20};
+        System.out.println(MinCostClimbingStairs.minCost(minCost));
     }
 
 }
