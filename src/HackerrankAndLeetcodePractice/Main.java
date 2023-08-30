@@ -40,6 +40,14 @@ public class Main {
         System.out.println(MinCostClimbingStairs.minCost(minCost));
         String[] alienDictonary = {"hello", "leetcode"};
         System.out.println(AlienDictonary.isAlienDictonary(alienDictonary, "hlabcdefgijklmnopqrstuvwxyz"));
+
+        int [][] matrix = {
+                {1, 1, 0},
+                {1, 0, 1},
+                {0, 0, 0},
+        };
+        System.out.println("Unflipped: " + Arrays.deepToString(matrix));
+        System.out.println("Flipped: " + Arrays.deepToString(FlipAnImage.flipAndInvert(matrix)));
     }
 
 }
