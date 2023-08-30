@@ -38,6 +38,8 @@ public class Main {
 
         int[] minCost = {10, 15, 20};
         System.out.println(MinCostClimbingStairs.minCost(minCost));
+        String[] alienDictonary = {"hello", "leetcode"};
+        System.out.println(AlienDictonary.isAlienDictonary(alienDictonary, "hlabcdefgijklmnopqrstuvwxyz"));
     }
 
 }

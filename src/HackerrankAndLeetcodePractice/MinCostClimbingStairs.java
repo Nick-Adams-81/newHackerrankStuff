@@ -13,3 +13,4 @@ public class MinCostClimbingStairs {
         return Math.min(step1, step2);
     }
 }
+
