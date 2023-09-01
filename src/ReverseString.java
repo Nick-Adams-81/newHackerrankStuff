@@ -1,9 +1,13 @@
 public class ReverseString {
 
     public static String reverseString(String str) {
+        str = str.toLowerCase();
         String result = "";
-        for(int i = 0; i < str.length(); i++) {
-            result = str.charAt(i) + result;
+        for(char c : str.toCharArray()) {
+            if(Character.isLetter(c) || Character.isDigit(c)) {
+                result = c + result;
+            }
+
         }
         return result;
     }
