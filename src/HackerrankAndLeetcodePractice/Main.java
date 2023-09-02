@@ -56,6 +56,9 @@ public class Main {
         int[] greed = {1, 2, 3};
         int[] cookies = {1, 1};
         System.out.println(AssignCookies.findContentChildren(greed, cookies));
+
+        String balloons = "balloonballoon";
+        System.out.println(MaxBaloons.maxBalloons(balloons));
     }
 
 }
