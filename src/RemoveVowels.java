@@ -1,16 +1,20 @@
+import java.util.Locale;
+
 public class RemoveVowels {
     public String removeVowels(String str) {
         return str.replaceAll("[aeiou]", "");
     }
 
-//    public String remove(String str) {
-//        str = str.toLowerCase();
-//        String result = "";
-//        for(int i = 0; i < str.length(); i++) {
-//            if(str.charAt(i) != 'a' || str.charAt(i) != 'e' || str.charAt(i) != 'i' || str.charAt(i) != 'o' || str.charAt(i) != 'u') {
-//                result = result + str.charAt(i);
-//            }
-//        }
-//        return result;
-//    }
+    public String remove(String str) {
+      StringBuilder result = new StringBuilder();
+      String vowels = "aeiouAEIOU";
+      for(int i = 0; i < str.length(); i++) {
+          char ch = str.charAt(i);
+          if(vowels.indexOf(ch) == -1) {
+              result.append(ch);
+          }
+      }
+      return result.toString();
+    }
+
 }
