@@ -53,6 +53,9 @@ public class Main {
         //System.out.println(Arrays.toString(NumberOfLinesToWriteString.numberOfLines(widths, str)));
         String[] myStrs = {"hello", "hell", "help", "hel"};
         System.out.println(LongestCommonPrefix.longestPrefix(myStrs));
+        int[] greed = {1, 2, 3};
+        int[] cookies = {1, 1};
+        System.out.println(AssignCookies.findContentChildren(greed, cookies));
     }
 
 }
