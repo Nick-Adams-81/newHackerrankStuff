@@ -51,7 +51,8 @@ public class Main {
 //        int [] widths = {10, 10, 10, 10, 10, 10, 10, 10, 10, 10};
 //        String str = "abcdefghijklmnopqrstuvwxyz";
         //System.out.println(Arrays.toString(NumberOfLinesToWriteString.numberOfLines(widths, str)));
-        System.out.println();
+        String[] myStrs = {"hello", "hell", "help", "hel"};
+        System.out.println(LongestCommonPrefix.longestPrefix(myStrs));
     }
 
 }
