@@ -61,6 +61,7 @@ public class Main {
         String balloons = "balloonballoon";
         System.out.println(MaxBaloons.maxBalloons(balloons));
         System.out.println(IsPalindrome.isPalindrome2("abca"));
+        System.out.println(JewelsAndStones.jewelsAndStones("aA", "aAAbbbb"));
     }
 
 }
