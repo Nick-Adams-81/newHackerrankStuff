@@ -29,6 +29,32 @@ public class IsPalindrome {
         return true;
     }
 
+    public static boolean isPalindrome2(String str) {
+        int a_pointer = 0;
+        int b_pointer = str.length() -1;
+        while(a_pointer <= b_pointer) {
+            if(str.charAt(a_pointer) != str.charAt(b_pointer)) {
+                return helper(str, a_pointer + 1, b_pointer) || helper(str, a_pointer, b_pointer -1);
+            }
+            a_pointer++;
+            b_pointer--;
+        }
+        return true;
+    }
+
+    private static boolean helper(String str, int i, int j) {
+        int a_pointer = i;
+        int b_pointer = j;
+        while(a_pointer <= b_pointer) {
+            if(str.charAt(a_pointer) != str.charAt(b_pointer)) {
+                return false;
+            }
+            a_pointer++;
+            b_pointer--;
+        }
+        return true;
+    }
+
     public static boolean palindromeNumber(int x) {
         if(x == 0) return true;
         if(x < 0 || x % 10 == 0) return false;
