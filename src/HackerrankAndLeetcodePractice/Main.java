@@ -62,8 +62,10 @@ public class Main {
         System.out.println(MaxBaloons.maxBalloons(balloons));
         System.out.println(IsPalindrome.isPalindrome2("abca"));
         System.out.println(JewelsAndStones.jewelsAndStones("aA", "aAAbbbb"));
-        int[] mountainRange = {0, 2, 1, 0};
+        int[] mountainRange = {0, 1, 2, 1, 0};
         System.out.println(PeakIndexInMountain.peakIndexInMountain(mountainRange));
+        int[] stock = {7, 1, 5, 3, 6, 4};
+        System.out.println(BuyAndSellStock.maxProfit(stock));
     }
 
 }
