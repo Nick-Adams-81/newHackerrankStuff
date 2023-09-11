@@ -49,9 +49,7 @@ public class Main {
         };
         System.out.println("Unflipped: " + Arrays.deepToString(matrix));
         System.out.println("Flipped: " + Arrays.deepToString(FlipAnImage.flipAndInvert(matrix)));
-//        int [] widths = {10, 10, 10, 10, 10, 10, 10, 10, 10, 10};
-//        String str = "abcdefghijklmnopqrstuvwxyz";
-        //System.out.println(Arrays.toString(NumberOfLinesToWriteString.numberOfLines(widths, str)));
+
         String[] myStrs = {"hello", "hell", "help", "hel"};
         System.out.println(LongestCommonPrefix.longestPrefix(myStrs));
         int[] greed = {1, 2, 3};
