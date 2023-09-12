@@ -1,6 +1,6 @@
 package HackerrankAndLeetcodePractice;
 
-import java.util.Collections;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -13,10 +13,10 @@ public class CardinalitySort {
             countMap.put(num, countBinaryOnes(num));
         }
 
-        Collections.sort(nums, (a, b) -> {
+        nums.sort((a, b) -> {
             int countA = countMap.get(a);
             int countB = countMap.get(b);
-            if(countA != countB) {
+            if (countA != countB) {
                 return countA - countB;
             } else {
                 return a - b;
