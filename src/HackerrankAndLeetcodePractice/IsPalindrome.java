@@ -67,4 +67,17 @@ public class IsPalindrome {
 
         return x == reversed || x == reversed / 10;
     }
+
+    public static String breakPalindrome(String palindroime) {
+        char[] chars = palindroime.toCharArray();
+        int n = chars.length;
+
+        for(int i = 0; i < n / 2; i++) {
+            if(chars[i] != 'a') {
+                chars[i] = 'a';
+                return String.valueOf(chars);
+            }
+        }
+        return "Not possible";
+    }
 }
