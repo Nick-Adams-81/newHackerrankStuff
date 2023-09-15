@@ -73,6 +73,9 @@ public class Main {
 
         int[] input = {-59, -36, -13, 1, -53, -96, - 54, 75};
         System.out.println(MinimumAbsoluteDifference.minDifference(input));
+
+        String chars = "aaabbb";
+        System.out.println(AlternatingCharacters.alternatingChars(chars));
     }
 
 }
