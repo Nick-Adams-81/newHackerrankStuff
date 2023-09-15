@@ -67,6 +67,9 @@ public class Main {
         System.out.println(IsPalindrome.breakPalindrome("aaa"));
         int[] stocks = {1, 2, 3, 4, 5};
         System.out.println(BuyAndSellStock.maxProfit2(stocks));
+
+        int[] houses = {1, 2, 3, 1};
+        System.out.println(HouseRobber.rob(houses));
     }
 
 }
