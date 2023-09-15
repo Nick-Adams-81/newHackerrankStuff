@@ -70,6 +70,9 @@ public class Main {
 
         int[] houses = {1, 2, 3, 1};
         System.out.println(HouseRobber.rob(houses));
+
+        int[] input = {-59, -36, -13, 1, -53, -96, - 54, 75};
+        System.out.println(MinimumAbsoluteDifference.minDifference(input));
     }
 
 }
