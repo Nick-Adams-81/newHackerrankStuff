@@ -64,7 +64,7 @@ public class Main {
         System.out.println(PeakIndexInMountain.peakIndexInMountain(mountainRange));
         int[] stock = {7, 1, 5, 3, 6, 4};
         System.out.println(BuyAndSellStock.maxProfit(stock));
-        System.out.println(IsPalindrome.breakPalindrome("aaa"));
+        System.out.println(IsPalindrome.breakPalindrome("abcba"));
         int[] stocks = {1, 2, 3, 4, 5};
         System.out.println(BuyAndSellStock.maxProfit2(stocks));
 
