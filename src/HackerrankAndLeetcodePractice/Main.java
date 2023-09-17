@@ -76,6 +76,10 @@ public class Main {
 
         String chars = "aaabbb";
         System.out.println(AlternatingCharacters.alternatingChars(chars));
+
+        int[] numsArr = {2, 1, 5, 5, 3, 2};
+        System.out.println("decent solution " + FirstDuplicate.firstDuplicate(numsArr));
+        System.out.println("better solution " + FirstDuplicate.firstDuplicte2(numsArr));
     }
 
 }
