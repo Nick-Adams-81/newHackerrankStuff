@@ -81,6 +81,8 @@ public class Main {
         System.out.println("decent solution " + FirstDuplicate.firstDuplicate(numsArr));
         System.out.println("better solution " + FirstDuplicate.firstDuplicte2(numsArr));
         System.out.println(IsPalindrome.longestPalindromeSubstring("abad"));
+
+
     }
 
 }

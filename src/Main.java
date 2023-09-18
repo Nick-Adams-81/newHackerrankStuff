@@ -12,10 +12,14 @@ public class Main {
 
 
         System.out.println("Fibonacci sequence:");
-        for(int i = 0; i < 20; i++) {
+        for(int i = 2; i < 20; i++) {
             System.out.println(FibonacciSequence.fibonacci(i));
         }
 
         System.out.println(PrimeNumbers.primeNumbers(50));
+
+        for(int i = 0; i <= 50; i++) {
+            PrimeNumbers.primes2(i);
+        }
     }
 }
